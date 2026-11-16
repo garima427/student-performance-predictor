@@ -92,9 +92,8 @@ streamlit run app.py
 
 ## Limitations
 
-- Synthetic dataset (not real student data)
-- Small dataset size (~40 samples)
-- Simple linear relationships assumed
+- Some features (sleep_hours, assignment_completion) are estimated proxies since UCI doesn't include them
+- UCI dataset is from Portuguese secondary school — may not generalize to other populations
 - No temporal/seasonal factors
 
 ## Future Improvements
